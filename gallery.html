@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 0.5rem 1rem;
+            border: 1px solid #333;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #333;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .project {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 1rem;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .project img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Selamat datang XD ini adalah website portofolio Saya</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="kontak.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="Screenshot (710).png" alt="Project 1">
+                    <h3>Waren Haus</h3>
+                    <p>Adalah Website toko hobby yang menjual berbagai figura dan berbagai koleksi mainan untuk anak hingga dewasa</p>
+                </div>
+                <div class="project">
+                    <img src="Screenshot (712).png" alt="Project 2">
+                    <h3>Bell's Hobby Shop</h3>
+                    <p>Bisa dibilang ini adalah Website beta dari waren haus</p>
+                </div>
+               
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 [Your Name]. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
